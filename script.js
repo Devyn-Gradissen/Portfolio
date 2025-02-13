@@ -22,6 +22,7 @@ const swiper = new Swiper('.slider-wrapper', {
     event.currentTarget.classList.add("active-link");
     document.getElementById(tabname).classList.add("active-tab");
   }
+
   const scriptURL = 'https://script.google.com/macros/s/AKfycbyWAOGTI3aqCi1pMt4CK6RI1bBiurVIIkvdLFLiSzhlpf3tfQAL9r8vCSe9URGIBjrc/exec';
 const form = document.forms['submit-to-google-sheet'];
 const messageDiv = document.createElement('p');
