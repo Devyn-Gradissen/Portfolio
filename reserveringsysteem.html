@@ -55,24 +55,24 @@
             <h2>Presentatie FO</h2>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#imageModal">Bekijk Video</button>
         </div>
-            <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="imageModalLabel">Presenteren</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="videoModalLabel">YouTube Video</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/LJv_ER03Vds?si=Kw5oAR5rbbKpwjPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
-                        <div class="modal-body text-center">
-                            <video id="video" src="Video's/IMG_5996.mp4" class="w-100"></video>
-                            <div class="controls d-flex gap-3">
-                                <button id="playPause" class="btn btn-primary">Afspelen</button>
-                                <button id="stop" class="btn btn-danger">Stop</button>
-                                <input type="range" id="progress" class="form-range" min="0" max="100" value="0">
-                            </div>
-                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
+        </div>
             <div class="section">
                 <h2>behoefteanalyse en verbetervoorstellen gesprek 1</h2>
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#audioModal2">Luister Audio</button>
